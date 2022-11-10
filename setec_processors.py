@@ -21,10 +21,10 @@ while True:
     page = requests.get(f"{url}{i}")
     soup = BeautifulSoup(page.content, 'html.parser')
 
-    products = soup.find_all('.product.clearfix.product-hover')
-    if len(products) == 0: break
+    product_tags = soup.select('.product.clearfix.product-hover')
+    if len(product_tags) == 0: break
 
-    for product in products:
+    for product in product_tags:
         product_details_url = product.select_one('div.right > div.name > a')['href']
         details_page = requests.get(product_details_url)
         product_soup = BeautifulSoup(details_page.content, 'html.parser')
@@ -42,20 +42,20 @@ while True:
             price_tag = product_soup.select_one('div.price > #price-old')
         product_object.price_mkd = ''.join(filter(str.isdigit, price_tag.text))
 
-        availability_list = []
+        availability_list = ""
         for store_tag in product_soup.select('div.dropdown2-menu > div'):
             if store_tag.select_one('img')['src'] == 'image/yes.png':
                 store_name = store_tag.select_one('a').text.strip()
-                availability_list.append(store_name)
+                availability_list += f"{store_name};"
 
-        if len(availability_list) > 0:
+        if availability_list != "":
             product_object.is_available = True
-        product_object.availability_list = json.dumps(availability_list, ensure_ascii=False)
+        product_object.availability_array = availability_list
         
-        products.append(json.dumps(product_object.__dict__, ensure_ascii=False))
+        products.append(product_object.toJson())
 
     i += 1
 
-with open("setec_processors.json", "w") as f:
-    json.dumps(products, f, ensure_ascii=False)
+with open("scraped_data/setec_processors.json", "w", encoding="utf-8") as f:
+    json.dump(products, f, ensure_ascii=False, indent=4)
 
