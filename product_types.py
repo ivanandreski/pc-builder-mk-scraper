@@ -1,0 +1,8 @@
+__CPU__ = "CPU"
+__MOTHERBOARD__ = "MB"
+__RAM__ = "RAM"
+__HDD__ = "HDD"
+__SSD__ = "SSD"
+__GPU__ = "GPU"
+__PSU__ = "PSU"
+__CASE__ = "CASE"
