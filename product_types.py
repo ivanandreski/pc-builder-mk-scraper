@@ -10,6 +10,8 @@ __CASE__ = "CASE"
 
 def get_type(key):
     if key == 'processors': return __CPU__
+    if key == 'processors_amd': return __CPU__
+    if key == 'processors_intel': return __CPU__
     if key == 'cases': return __CASE__
     if key == 'graphics_cards': return __GPU__
     if key == 'storage': return __STORAGE__

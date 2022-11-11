@@ -1,14 +1,15 @@
 import sys
-from setec import scrape
+from setec import setec_scrape
+from ddstore import ddstore_scrape
 
 def anhoch():
     print("Anhoch")
 
 def setec():
-    scrape()
+    setec_scrape()
 
 def ddstore():
-    print("DDStore")
+    ddstore_scrape()
 
 if __name__ == '__main__':
     try:
