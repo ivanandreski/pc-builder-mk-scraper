@@ -9,16 +9,19 @@ import routes
 import stores
 import product_types
 import json
+import time
 
 url = routes.setec['processors']
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582',
+}
 
 products = []
 
 i = 1
 while True:
-    if i > 1: break
-
-    page = requests.get(f"{url}{i}")
+    page = requests.get(f"{url}{i}", headers=headers)
     soup = BeautifulSoup(page.content, 'html.parser')
 
     product_tags = soup.select('.product.clearfix.product-hover')
@@ -53,8 +56,13 @@ while True:
         product_object.availability_array = availability_list
         
         products.append(product_object.toJson())
+        
+        print(f"Sleeping 2.4 seconds after adding new product #{len(products)}")
+        time.sleep(1)
 
     i += 1
+    print("Sleeping 2.4 seconds after changing category page")
+    time.sleep(2.4)
 
 with open("scraped_data/setec_processors.json", "w", encoding="utf-8") as f:
     json.dump(products, f, ensure_ascii=False, indent=4)
