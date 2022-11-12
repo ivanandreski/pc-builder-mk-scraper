@@ -1,9 +1,10 @@
 import sys
 from setec import setec_scrape
 from ddstore import ddstore_scrape
+from anhoch import anhoch_scrape
 
 def anhoch():
-    print("Anhoch")
+    anhoch_scrape()
 
 def setec():
     setec_scrape()
