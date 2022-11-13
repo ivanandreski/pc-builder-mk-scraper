@@ -9,7 +9,7 @@ class Product:
         self.image_url = ""
         self.description = ""
         self.brand = ""
-        self.is_available = False,
+        self.is_available = False
         self.availability_array = ""
         self.product_url = product_url
         self.store_name = store_name

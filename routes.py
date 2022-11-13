@@ -21,13 +21,13 @@ ddstore = {
 
 # https://anhoch.com/category/376/matichni-plochi#page/{PAGE_NUM}/
 anhoch = {
-    "processors_amd": "https://anhoch.com/category/3005/amd-procesori#page/",
-    "processors_intel": "https://anhoch.com/category/3004/intel-procesori#page/",
-    "cases": "https://anhoch.com/category/3006/kukjishta#page/",
-    "graphics_cards": "https://anhoch.com/category/374/grafichki-kartichki#page/",
-    "hard_drives": "https://anhoch.com/category/330/hard-diskovi#page/",
-    "solid_state_drives": "https://anhoch.com/category/1008/ssd-diskovi#page/",
-    "motherboards": "https://anhoch.com/category/376/matichni-plochi#page/",
-    "power_supplies": "https://anhoch.com/category/388/napojuvanja#page/",
-    "ram": "https://anhoch.com/category/333/dimm-pc-ram-memorii#page/",
+    # "processors_amd": "https://anhoch.com/category/3005/amd-procesori" + '%23' + 'stock/2/page/',
+    # "processors_intel": "https://anhoch.com/category/3004/intel-procesori" + '%23' + 'stock/2/page/',
+    # "cases": "https://anhoch.com/category/3006/kukjishta" + '%23' + 'stock/2/page/',
+    # "graphics_cards": "https://anhoch.com/category/374/grafichki-kartichki" + '%23' + 'stock/2/page/',
+    # "hard_drives": "https://anhoch.com/category/330/hard-diskovi" + '%23' + 'stock/2/page/',
+    # "solid_state_drives": "https://anhoch.com/category/1008/ssd-diskovi" + '%23' + 'stock/2/page/',
+    "motherboards": "https://anhoch.com/category/376/matichni-plochi" + '%23' + 'stock/2/page/',
+    "power_supplies": "https://anhoch.com/category/388/napojuvanja" + '%23' + 'stock/2/page/',
+    "ram": "https://anhoch.com/category/333/dimm-pc-ram-memorii" + '%23' + 'stock/2/page/',
 }
