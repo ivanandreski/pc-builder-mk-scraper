@@ -27,13 +27,13 @@ def anhoch_scrape():
         products = []
         i = 1
 
+        driver.get(url)
         while True:
             # page = requests.get(f"{url}{i}/", headers=headers)
             # soup = BeautifulSoup(page.content, 'html.parser')
-            driver.get(url)
             if i > 1:
                 try:
-                    next_page_button = driver.find_element(By.CLASS_NAME, 'icon-angle-right').click()
+                    driver.find_element(By.CLASS_NAME, 'icon-angle-right').click()
                 except Exception:
                     print("End of pages")
                     break
