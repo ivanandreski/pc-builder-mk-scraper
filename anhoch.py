@@ -5,14 +5,18 @@ import models
 import stores
 import json
 import time
+from selenium import webdriver
 from routes import anhoch
 from product_types import get_type
-
+from selenium.common.exceptions import *
+from selenium.webdriver.common.by import By
 
 def anhoch_scrape():
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582',
     }
+    DRIVER_PATH = 'chromedriver'
+    driver = webdriver.Chrome(executable_path=DRIVER_PATH)
 
     for key, url in anhoch.items():
         print(f"{key}: {url}")
@@ -20,11 +24,11 @@ def anhoch_scrape():
         i = 1
 
         while True:
-            page = requests.get(f"{url}{i}/", headers=headers)
-            soup = BeautifulSoup(page.content, 'html.parser')
+            # page = requests.get(f"{url}{i}/", headers=headers)
+            # soup = BeautifulSoup(page.content, 'html.parser')
+            driver.get(url)
 
-            product_tags = soup.select('li.span3.product-fix')
-            print("len is ", len(product_tags))
+            product_tags = driver.find_elements(By.XPATH, '/html/body/div[3]/div/div/div/section/div/div[2]/section/div/div[2]/div/div/div[3]/ul/li')
             if len(product_tags) == 0:
                 break
 
@@ -32,8 +36,6 @@ def anhoch_scrape():
                 product_details_url = product.select_one(
                     'div.product-name > a')['href']
                 print("Url: " + product_details_url)
-                # if product_details_url != 'https://anhoch.com/product/599873143/atx-mid-tower-case-thermaltake-j21-tempered-glass':
-                #     continue
                 details_page = requests.get(product_details_url)
                 print('details page')
                 product_soup = BeautifulSoup(
@@ -45,10 +47,8 @@ def anhoch_scrape():
                 product_object.name = product_soup.select_one(
                     'div.box-heading > h3').text.strip()
                 print("Name: " + product_object.name)
-                # tags = product_soup.select('div.product-desc')
                 product_object.original_id = product['data-id'].strip()
                 print("OGID: " + product_object.original_id)
-                # product_object.brand = product.select_one('div.product-price.clearfix > div:second-child > strong').text.strip()
                 if (len(product_soup.select('div.product-desc > a')) > 0):
                     product_object.brand = product_soup.select(
                         'div.product-desc > a')[0].get_text(strip=True)
@@ -90,3 +90,5 @@ def anhoch_scrape():
 
         with open(f"scraped_data/anhoch_{key}.json", "w", encoding="utf-8") as f:
             json.dump(products, f, ensure_ascii=False, indent=4)
+
+    driver.quit()
