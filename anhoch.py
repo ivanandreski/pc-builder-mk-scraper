@@ -10,6 +10,8 @@ from routes import anhoch
 from product_types import get_type
 from selenium.common.exceptions import *
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 def anhoch_scrape():
@@ -18,6 +20,7 @@ def anhoch_scrape():
     }
     DRIVER_PATH = 'chromedriver'
     driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+    wait = WebDriverWait(driver, 15)
 
     for key, url in anhoch.items():
         print(f"{key}: {url}")
@@ -28,6 +31,16 @@ def anhoch_scrape():
             # page = requests.get(f"{url}{i}/", headers=headers)
             # soup = BeautifulSoup(page.content, 'html.parser')
             driver.get(url)
+            if i > 1:
+                try:
+                    next_page_button = driver.find_element(By.CLASS_NAME, 'icon-angle-right').click()
+                except Exception:
+                    print("End of pages")
+                    break
+
+            # wait untill se vcituva is over
+            wait.until(EC.presence_of_element_located(
+                (By.XPATH, '/html/body/div[3]/div/div/div/section/div/div[2]/section/div/div[2]/div/div/div[3]/ul/li')))
 
             product_tags = driver.find_elements(
                 By.XPATH, '/html/body/div[3]/div/div/div/section/div/div[2]/section/div/div[2]/div/div/div[3]/ul/li')
@@ -55,7 +68,6 @@ def anhoch_scrape():
                 print("OGID: " + original_id)
                 product_object.original_id = original_id
 
-
                 # Open a new window
                 driver.execute_script("window.open('');")
 
@@ -65,49 +77,41 @@ def anhoch_scrape():
 
                 # …Do something here
                 print('details page')
+
+                wait.until(EC.presence_of_element_located(
+                    (By.XPATH, '//*[@id="product"]/div[1]/div[2]/section/div/div[2]/div/div[2]/a')))
                 brand = "/"
                 try:
-                    driver.find_element(By.XPATH, '//*[@id="product"]/div[1]/div[2]/section/div/div[2]/div/div[2]/a').text.strip()
+                    brand = driver.find_element(
+                        By.XPATH, '//*[@id="product"]/div[1]/div[2]/section/div/div[2]/div/div[2]/a').text.strip()
                 except Exception:
                     print("brand not found setting /")
                 print("Brand: " + brand)
                 product_object.brand = brand
 
-                # Close the tab with URL B
-                driver.close()
+                image_tags = driver.find_elements(
+                    By.XPATH, '//*[@id="product_gallery"]/img')
+                for image_tag in image_tags:
+                    product_object.image_url += image_tag.get_attribute(
+                        'src').strip() + ";"
+                print("Images: " + product_object.image_url)
 
-                # Switch back to the first tab with URL A
-                driver.switch_to.window(driver.window_handles[0])
+                description = driver.find_element(
+                    By.XPATH, '//*[@id="description"]/div[1]/pre').text.strip()
+                print("Description: " + description)
+                product_object.description = description
 
-                return
+                price = driver.find_element(
+                    By.XPATH, '//*[@id="product"]/div[1]/div[2]/section/div/div[2]/div/div[1]/div/span[1]').text.strip()
+                price = ''.join(char for char in price if char.isdigit())
+                print("Price: " + price)
+                product_object.price_mkd = price
 
-                details_page = requests.get(product_details_url)
-                
-                product_soup = BeautifulSoup(
-                    details_page.content, 'html.parser')
-                if (len(product_soup.select('div.product-desc > a')) > 0):
-                    product_object.brand = product_soup.select(
-                        'div.product-desc > a')[0].get_text(strip=True)
-                else:
-                    product_object.brand = ""
-                print("Brand: " + product_object.brand)
-                product_image_tags = product_soup.select(
-                    'div#product_gallery > img')
-                for image in product_image_tags:
-                    product_object.image_url += image['src'].strip() + ";"
-                print("ImgURL: " + product_object.image_url)
-                product_object.description = product_soup.select_one(
-                    'div.span8.clearfix').text
-                print("Description: " + product_object.description)
-                product_object.price_mkd = product_soup.select_one(
-                    'div.price > span.nm').text
-                print("Price: " + product_object.price_mkd)
-
-                store_tags = product_soup.select(
-                    'div.span4.clearfix.pad5 > ul > li')
+                store_tags = driver.find_elements(By.XPATH, '//*[@id="description"]/div[2]/ul/li')
                 for store_tag in store_tags:
-                    if "icon-ok" in store_tag.select_one('i')['class']:
-                        product_object.availability_array += f"{store_tag.select_one('span.padl5 > a > b').text.strip()};"
+                    icon_tag = store_tag.find_element(By.TAG_NAME, 'i')
+                    if "icon-ok" in icon_tag.get_attribute('class'):
+                        product_object.availability_array += store_tag.find_element(By.TAG_NAME, 'b').text.strip()
                 print("Stores: " + str(product_object.availability_array))
 
                 if product_object.availability_array != "":
@@ -116,14 +120,14 @@ def anhoch_scrape():
 
                 products.append(product_object.toJson())
 
-                print(
-                    f"Sleeping 20 second after adding new product #{len(products)}")
-                time.sleep(20)
+                # Close the tab with URL B
+                driver.close()
 
-# todo: add click next page
+                # Switch back to the first tab with URL A
+                driver.switch_to.window(driver.window_handles[0])
+
+            # todo: add click next page
             i += 1
-            print("Sleeping 2.5 seconds after changing category page")
-            time.sleep(2.5)
 
         with open(f"scraped_data/anhoch_{key}.json", "w", encoding="utf-8") as f:
             json.dump(products, f, ensure_ascii=False, indent=4)
