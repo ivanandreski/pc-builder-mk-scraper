@@ -11,6 +11,7 @@ from product_types import get_type
 from selenium.common.exceptions import *
 from selenium.webdriver.common.by import By
 
+
 def anhoch_scrape():
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582',
@@ -28,27 +29,62 @@ def anhoch_scrape():
             # soup = BeautifulSoup(page.content, 'html.parser')
             driver.get(url)
 
-            product_tags = driver.find_elements(By.XPATH, '/html/body/div[3]/div/div/div/section/div/div[2]/section/div/div[2]/div/div/div[3]/ul/li')
-            if len(product_tags) == 0:
-                break
+            product_tags = driver.find_elements(
+                By.XPATH, '/html/body/div[3]/div/div/div/section/div/div[2]/section/div/div[2]/div/div/div[3]/ul/li')
+            print(product_tags)
+            # if len(product_tags) == 0:
+            #     break
 
             for product in product_tags:
-                product_details_url = product.select_one(
-                    'div.product-name > a')['href']
-                print("Url: " + product_details_url)
-                details_page = requests.get(product_details_url)
+                product_object = models.Product(
+                    store_name=stores.__ANHOCH__, product_type=get_type(key))
+                print('product object created')
+
+                product_details_url = product.find_element(
+                    By.XPATH, './/*[@class="pbox thumbnail "]/div[1]/a')
+
+                name = product_details_url.text.strip()
+                print("Name: " + name)
+                product_object.name = name
+
+                product_url = product_details_url.get_attribute('href').strip()
+                print("Url: " + product_url)
+                product_object.product_url = product_url
+
+                original_id = product.get_attribute('data-id').strip()
+                print("OGID: " + original_id)
+                product_object.original_id = original_id
+
+
+                # Open a new window
+                driver.execute_script("window.open('');")
+
+                # Switch to the new window and open URL B
+                driver.switch_to.window(driver.window_handles[1])
+                driver.get(product_url)
+
+                # …Do something here
                 print('details page')
+                brand = "/"
+                try:
+                    driver.find_element(By.XPATH, '//*[@id="product"]/div[1]/div[2]/section/div/div[2]/div/div[2]/a').text.strip()
+                except Exception:
+                    print("brand not found setting /")
+                print("Brand: " + brand)
+                product_object.brand = brand
+
+                # Close the tab with URL B
+                driver.close()
+
+                # Switch back to the first tab with URL A
+                driver.switch_to.window(driver.window_handles[0])
+
+                return
+
+                details_page = requests.get(product_details_url)
+                
                 product_soup = BeautifulSoup(
                     details_page.content, 'html.parser')
-
-                product_object = models.Product(
-                    store_name=stores.__ANHOCH__, product_url=product_details_url, product_type=get_type(key))
-                print('product object created')
-                product_object.name = product_soup.select_one(
-                    'div.box-heading > h3').text.strip()
-                print("Name: " + product_object.name)
-                product_object.original_id = product['data-id'].strip()
-                print("OGID: " + product_object.original_id)
                 if (len(product_soup.select('div.product-desc > a')) > 0):
                     product_object.brand = product_soup.select(
                         'div.product-desc > a')[0].get_text(strip=True)
@@ -84,6 +120,7 @@ def anhoch_scrape():
                     f"Sleeping 20 second after adding new product #{len(products)}")
                 time.sleep(20)
 
+# todo: add click next page
             i += 1
             print("Sleeping 2.5 seconds after changing category page")
             time.sleep(2.5)

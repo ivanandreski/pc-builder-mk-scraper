@@ -2,7 +2,7 @@ import json
 
 
 class Product:
-    def __init__(self, product_url, store_name, product_type):
+    def __init__(self, store_name, product_type):
         self.name = ""
         self.price_mkd = 0
         self.original_id = ""
@@ -11,7 +11,7 @@ class Product:
         self.brand = ""
         self.is_available = False
         self.availability_array = ""
-        self.product_url = product_url
+        self.product_url = ""
         self.store_name = store_name
         self.product_type = product_type
 
