@@ -18,8 +18,9 @@ def anhoch_scrape():
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582',
     }
-    DRIVER_PATH = 'chromedriver'
-    driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+    DRIVER_PATH = 'driver'
+    # driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+    driver = webdriver.Edge(executable_path=DRIVER_PATH)
     wait = WebDriverWait(driver, 15)
 
     for key, url in anhoch.items():
@@ -29,8 +30,6 @@ def anhoch_scrape():
 
         driver.get(url)
         while True:
-            # page = requests.get(f"{url}{i}/", headers=headers)
-            # soup = BeautifulSoup(page.content, 'html.parser')
             if i > 1:
                 try:
                     driver.find_element(By.CLASS_NAME, 'icon-angle-right').click()
@@ -126,7 +125,6 @@ def anhoch_scrape():
                 # Switch back to the first tab with URL A
                 driver.switch_to.window(driver.window_handles[0])
 
-            # todo: add click next page
             i += 1
 
         with open(f"scraped_data/anhoch_{key}.json", "w", encoding="utf-8") as f:
