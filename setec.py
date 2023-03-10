@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 from urllib.request import urlopen
-import base64
+import os.path
 from urllib.request import urlopen
 from urllib.error import HTTPError
 import models
@@ -19,7 +19,9 @@ def setec_scrape():
     }
     
     for key, url in setec.items():
-        print(f"{key}: {url}")
+        if os.path.isfile(f"./scraped_data/setec_{key}.json"):
+            continue
+
         products = []
         i = 1
 

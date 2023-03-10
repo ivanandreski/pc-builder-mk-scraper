@@ -4,7 +4,7 @@ from urllib.request import urlopen
 import models
 import stores
 import json
-import time
+import os.path
 from routes import ddstore
 from product_types import get_type
 
@@ -14,7 +14,9 @@ def ddstore_scrape():
     }
     
     for key, url in ddstore.items():
-        print(f"{key}: {url}")
+        if os.path.isfile(f"./scraped_data/ddstore_{key}.json"):
+            continue
+
         products = []
         i = 1
 
