@@ -59,7 +59,7 @@
         "description": "Features\nPowered by NVIDIA GeForce GT 710 GPU\nIntegrated with 2GB GDDR5 64bit memory interface\nCore clock： 954MHz\nFeatures Dual-link DVI-I / HDMI\nSupport PCI Express 2.0 x8 bus interface\nRecommended system power supply requirement: 300W\n\nGraphics Processing: GeForce® GT 710\nCore Clock: 954 MHz\nProcess Technology: 28 nm\nMemory Clock: 5010 MHz\nMemory Size: 2 GB\nMemory Type: DDR5\nMemory Bus: 64 bit\nCard Bus: PCI-E 2.0 x 8\nDigital max resolution: 4096 X 2160\nMulti-view: 2\nCard size: TBD\nPCB Form: Low Profile\nDirectX: 12\nOpenGL: 4.5\nRecommended PSU: 300W\nI/O: Dual-link DVI-I*1 / HDMI*1\nAccessories: HDMI+DVI low profile bracket x1\n\nMore Info:\nПовеќе за производот...",
         "brand": "Gigabyte",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Магацин - Анхоч Дирекција;Главен магацин;",
+        "availability_array": "Анхоч Action – Capitol Mall;Магацин - Анхоч Дирекција;Главен магацин;",
         "product_url": "https://anhoch.com/product/42273/gigabyte-geforce-gt710-2gb-ddr5-hdmidvi",
         "store_name": "Anhoch",
         "product_type": "GPU"
@@ -111,7 +111,7 @@
         "description": "Features\nPowered by NVIDIA GeForce GT 730 GPU\nIntegrated with 2GB GDDR5 64bit memory interface\nCore clock: 902MHz\nFeatures Dual-link DVI-I / HDMI\nSupport PCI Express 2.0 x8 bus interface\nRecommended system power supply requirement: 300W\n\nGraphics Processing: GeForce® GT 730\nCore Clock: 902 MHz\nProcess Technology: 28 nm\nMemory Clock: 5000 MHz\nMemory Size: 2048 MB\nMemory Type: GDDR5\nMemory Bus: 64 bit\nCard Bus: PCI-E 2.0\nOutput: Dual-link DVI-I*1, HDMI*1\nDigital max resolution: 4096 X 2160 (Through HDMI connector)\nAnalog max resolution: 2048 x 1536\nMulti-view: 3\nCard size: H=14.67 L=149.88 W=68.9 mm\nPCB Form: ATX\nDirectX: 12\nOpenGL: 4.4\nRecommended PSU: 300W\nAccessories: HDMI+DVI low profile bracket x1\n\nMore Info:\nПовеќе за производот...",
         "brand": "Gigabyte",
         "is_available": true,
-        "availability_array": "Анхоч Action – Capitol Mall;Главен магацин;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Главен магацин;",
         "product_url": "https://anhoch.com/product/43917/gigabyte-geforce-gt730-2gb-ddr5-hdmidvi",
         "store_name": "Anhoch",
         "product_type": "GPU"
@@ -293,7 +293,7 @@
         "description": "Features\nPowered by GeForce® GTX 1650\nNVIDIA Turing™ architecture and GeForce Experience™\nIntegrated with 4GB GDDR6 128bit memory interface\n90mm unique blade fan\n172 mm compact card size\n\nGraphics Processing: GeForce® GTX 1650\nCore Clock: 1635 MHz (Reference Card: 1590 MHz)\nCUDA® Cores: 896\nMemory Clock: 12000 MHz\nMemory Size: 4 GB\nMemory Type: GDDR6\nMemory Bus: 128 bit\nMemory Bandwidth (GB/sec): 192 GB/s\nCard Bus: PCI-E 3.0 x 16\nDigital max resolution: 7680x4320@60Hz\nMulti-view: 3\nCard size: L=172 W=122 H=40 mm\nPCB Form: ATX\nDirectX: 12\nOpenGL: 4.6\nNVIDIA Encoder (NVENC): Yes (Turing)\nRecommended PSU: 300W\nPower Connectors: 6 Pin*1\nOutput: \nDisplayPort 1.4 *1\nHDMI 2.0b *1\nDVI-D *1\nSLI Support: No\nAccessories: Quick guide\n\nMore Info:\nПовеќе за производот...",
         "brand": "Gigabyte",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Главен магацин;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Магацин - Анхоч Дирекција;Главен магацин;",
         "product_url": "https://anhoch.com/product/599870142/gigabyte-geforce-gtx-1650-d6-oc-rev-20-4gb-gddr6-dvihdmidp-dx12",
         "store_name": "Anhoch",
         "product_type": "GPU"
@@ -305,8 +305,8 @@
         "image_url": "https://d1a68gwbwfmqto.cloudfront.net/img/products/full/gtx1650d6ventusxsocv1.jpg;https://d1a68gwbwfmqto.cloudfront.net/img/products/full/gtx1650d6ventusxsocv1-2.jpg;",
         "description": "MODEL NAME: GeForce® GTX 1650 D6 VENTUS XS OCV1\nGRAPHICS PROCESSING UNIT: NVIDIA® GeForce® GTX 1650\nINTERFACE: PCI Express x16 3.0\nCORES: 896 Units\nCORE CLOCKS: Boost: 1620 MHz\nMEMORY SPEED: 12 Gbps\nMEMORY: 4GB GDDR6\nMEMORY BUS: 128-bit\nOUTPUT: DL-DVI-D x 1 / DisplayPort x 1 (v1.4) / HDMI 2.0b x 1\nHDCP SUPPORT: 2.2\nPOWER CONSUMPTION: 75 W\nRECOMMENDED PSU: 300 W\nCARD DIMENSION(MM): 179 x 115 x 42 mm\nWEIGHT (CARD / PACKAGE): 466g / 670g\nDIRECTX VERSION SUPPORT: 12 API\nOPENGL VERSION SUPPORT: 4.5\nMAXIMUM DISPLAYS: 3\nG-SYNC® TECHNOLOGY: Y\nADAPTIVE VERTICAL SYNC: Y\nDIGITAL MAXIMUM RESOLUTION: 7680x4320\n\nMore info: Повеќе за производот...",
         "brand": "MSI",
-        "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Магацин - Анхоч Дирекција;Главен магацин;",
+        "is_available": false,
+        "availability_array": "",
         "product_url": "https://anhoch.com/product/599870393/msi-geforce-gtx-1650-d6-ventus-xs-ocv1-4gb-gddr6-oc-dvihdmidp-dx12",
         "store_name": "Anhoch",
         "product_type": "GPU"
@@ -410,7 +410,7 @@
         "description": "The GeForce RTX™ 3050 is built with the powerful graphics performance of the NVIDIA Ampere architecture. It offers dedicated 2nd gen RT Cores and 3rd gen Tensor Cores, new streaming multiprocessors, and high-speed G6 memory to tackle the latest games. Step up to GeForce RTX.\n\nBoost Clock / Memory Speed\n1807 MHz / 14 Gbps\n8GB GDDR6\nDisplayPort x 3\nHDMI x 1 (Supports 4K@120Hz as specified in HDMI 2.1)\nDual Fan Thermal Design\nTORX Fan 3.0: The award-winning MSI TORX Fan 3.0 design creates high static pressure and pushes the limits of thermal performance.\nAfterburner Overclocking Utility\nSupports multi-GPU setups.\nOC Scanner: An automated function finds the highest stable overclock settings.\nOn Screen Display: Provides real-time information of your system's performance.\nPredator: In-game video recording.\nMSI Center\nThe exclusive MSI Center software lets you monitor, tweak and optimize MSI products in real-time.\n\nMODEL NAME: GeForce RTX™ 3050 VENTUS 2X 8G OC\nGRAPHICS PROCESSING UNIT: NVIDIA® GeForce RTX™ 3050\nINTERFACE: PCI Express® Gen 4.0 x8\nCUDA® CORES: 2560 Units\nCORE CLOCKS: Boost: 1807 MHz\nMEMORY SPEED: 14 Gbps\nMEMORY: 8GB GDDR6\nMEMORY BUS: 128-bit\nOUTPUT: \"DisplayPort x 3 (v1.4a), HDMI x 1 (Supports 4K@120Hz as specified in HDMI 2.1)\"\nHDCP SUPPORT: Y\nPOWER CONSUMPTION: 130W\nPOWER CONNECTORS: 8-pin x 1\nRECOMMENDED PSU: 550 W\nCARD DIMENSION (MM): 235 x 124 x 42 mm\nWEIGHT (CARD / PACKAGE): 661 g / 1070 g\nDIRECTX VERSION SUPPORT: 12 API\nOPENGL VERSION SUPPORT: 4.6\nMAXIMUM DISPLAYS: 4\nG-SYNC® TECHNOLOGY: Y\nADAPTIVE VERTICAL SYNC: Y\nDIGITAL MAXIMUM RESOLUTION: 7680 x 4320\n\nMore info: Повеќе за производот...",
         "brand": "MSI",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Главен магацин;",
+        "availability_array": "Анхоч Action – Capitol Mall;Главен магацин;",
         "product_url": "https://anhoch.com/product/599876983/msi-geforce-rtx-3050-ventus-2x-oc-lhr-8gb-gddr6-hdmi3xdp-dx12u",
         "store_name": "Anhoch",
         "product_type": "GPU"
@@ -436,7 +436,7 @@
         "description": "FEATURES\nNVIDIA Ampere Streaming Multiprocessors\n2nd Generation RT Cores\n3rd Generation Tensor Cores\nPowered by GeForce RTX™ 3050\nIntegrated with 8GB GDDR6 128-bit memory interface\nWINDFORCE 3X Cooling System with alternate spinning fans\nRGB Fusion 2.0\nProtection metal back plate\n\nGraphics Processing: GeForce RTX™ 3050\nCore Clock: 1822 MHz (Reference Card: 1777 MHz)\nCUDA® Cores: 2560\nMemory Clock: 14000 MHz\nMemory Size: 8 GB\nMemory Type: GDDR6\nMemory Bus: 128 bit\nMemory Bandwidth (GB/sec): 224 GB/s\nCard Bus: PCI-E 4.0\nDigital max resolution: 7680x4320\nMulti-view: 4\nCard size: L=282 W=117 H=41 mm\nPCB Form: ATX\nDirectX: 12 Ultimate\nOpenGL:4.6\nRecommended PSU: 450W\nPower Connectors: 8 pin*1\nOutput: DisplayPort 1.4a *2 / HDMI 2.1 *2\nAccessories: Quick guide\n\n\nMore Info: Повеќе за производот...",
         "brand": "Gigabyte",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Магацин - Анхоч Дирекција;Главен магацин;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Магацин - Анхоч Дирекција;Главен магацин;",
         "product_url": "https://anhoch.com/product/599877577/gigabyte-geforce-rtx-3050-gaming-oc-8g-gddr6-dp2xhdmi-dx12u-pcie-40-windforce-3x",
         "store_name": "Anhoch",
         "product_type": "GPU"
@@ -527,7 +527,7 @@
         "description": "FEATURES\nPowered by AMD RDNA™ 2 Radeon™ RX 6600 XT\nIntegrated with 8GB GDDR6 128-bit memory interface\nWINDFORCE 3X Cooling System with alternate spinning fans\nScreen cooling\nGraphene nano lubricant\nRGB Fusion 2.0\nProtection metal back plate\n\nGraphics Processing: Radeon™ RX 6600 XT\nCore Clock: \nBoost Clock* : up to 2593 MHz (Reference card: 2589 MHz)\nGame Clock* : up to 2382 MHz (Reference card: 2359 MHz)\nStream Processors: 2048\nMemory Clock: 16000 MHz\nMemory Size: 8 GB\nMemory Type: GDDR6\nMemory Bus: 128 bit\nMemory Bandwidth (GB/sec): 256 GB/s\nCard Bus: PCI-E 4.0 x 8\nDigital max resolution: 7680x4320\nMulti-view: 4\nCard size: L=282 W=115 H=50 mm\nPCB Form: ATX\nDirectX: 12 Ultimate\nOpenGL: 4.6\nRecommended PSU: 500W\nPower Connectors: 8 pin*1\nOutput: \nDisplayPort 1.4a *2\nHDMI 2.1 *2\nAccessories: Quick guide\n\nMore Info:\nПовеќе за производот...",
         "brand": "Gigabyte",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч ГТЦ;Главен магацин;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч ГТЦ;Магацин - Анхоч Дирекција;Главен магацин;",
         "product_url": "https://anhoch.com/product/599873287/gigabyte-radeon-rx-6600-xt-gaming-oc-8gb-gddr6-2xhdmi2xdp-dx12u-pcie-40-rgb-windforce-3x",
         "store_name": "Anhoch",
         "product_type": "GPU"
@@ -591,8 +591,8 @@
         "image_url": "https://d1a68gwbwfmqto.cloudfront.net/img/products/full/gvn2060wf2oc12gd_1.jpg;https://d1a68gwbwfmqto.cloudfront.net/img/products/full/gvn2060wf2oc12gd_2.jpg;",
         "description": "Features\nPowered by GeForce RTX™ 2060\nIntegrated with 12GB GDDR6 192-bit memory interface\nWINDFORCE 2X Cooling System with alternate spinning fans\n100mm unique blade fans\nProtection back plate\n\nGraphics Processing: GeForce RTX™ 2060\nCore Clock: 1680 MHz (Reference Card: 1650 MHz)\nRTX-OPS: 41\nCUDA® Cores: 2176\nMemory Clock: 14000 MHz\nMemory Size: 12 GB\nMemory Type: GDDR6\nMemory Bus: 192 bit\nMemory Bandwidth (GB/sec): up to 336 GB/s\nCard Bus: PCI-E 3.0 x 16\nDigital max resolution: 7680x4320\nMulti-view: 4\nCard size: L=265 W=121 H=40 mm\nPCB Form: ATX\nDirectX: 12\nOpenGL: 4.6\nRecommended PSU: 550W\nPower Connectors: 8 Pin*1\nOutput:\nDisplayPort 1.4 *3\nHDMI 2.0b *1\nSLI Support: No\nAccessories: Manual\n\nMore Info:\nПовеќе за производот...",
         "brand": "Gigabyte",
-        "is_available": true,
-        "availability_array": "Магацин - Анхоч Дирекција;",
+        "is_available": false,
+        "availability_array": "",
         "product_url": "https://anhoch.com/product/599873928/gigabyte-geforce-rtx-2060-windforce-oc-12gb-gddr6-hdmi3xdp-dx12-windforce-2x",
         "store_name": "Anhoch",
         "product_type": "GPU"
@@ -657,7 +657,7 @@
         "description": "FEATURES\nNVIDIA Ampere Streaming Multiprocessors\n2nd Generation RT Cores\n3rd Generation Tensor Cores\nPowered by GeForce RTX™ 3060 Ti\nIntegrated with 8GB GDDR6 256-bit memory interface\nWINDFORCE 2X Cooling System with alternate spinning fans\n100mm unique blade fans\nRGB Fusion 2.0\nProtection back plate\nLHR (Lite Hash Rate) version\n\nGraphics Processing: GeForce RTX™ 3060 Ti\nCore Clock: 1695 MHz (Reference Card: 1665 MHz)\nCUDA® Cores: 4864\nMemory Clock: 14000 MHz\nMemory Size: 8 GB\nMemory Type: GDDR6\nMemory Bus: 256 bit\nMemory Bandwidth (GB/sec): 448 GB/s\nCard Bus: PCI-E 4.0 x 16\nDigital max resolution: 7680x4320\nMulti-view: 4\nCard size: L=242 W=124 H=41 mm\nPCB Form: ATX\nDirectX: 12 Ultimate\nOpenGL: 4.6\nRecommended PSU: 600W\nPower Connectors: 8 pin*1\nOutput: \nDisplayPort 1.4a *2\nHDMI 2.1 *2\nSLI Support: N/A\nAccessories: Quick guide\n\nMore Info:\nПовеќе за производот...",
         "brand": "Gigabyte",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Главен магацин;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;",
         "product_url": "https://anhoch.com/product/599873930/gigabyte-geforce-rtx-3060-ti-eagle-oc-20-lhr-8gb-gddr6-2xhdmi2xdp-dx12u-rgb-pcie-40-windforce-2x",
         "store_name": "Anhoch",
         "product_type": "GPU"
@@ -917,7 +917,7 @@
         "description": "KEY FEATURES\nNVIDIA Ada Lovelace Streaming Multiprocessors:\nUp to 2x performance and power efficiency\n4th Generation Tensor Cores: Up to 4x performance with DLSS 3 vs. brute-force rendering\n3rd Generation RT Cores: Up to 2X ray tracing performance\nPowered by GeForce RTX™ 4080 16GB\nIntegrated with 16GB GDDR6X 256-bit memory interface\nWINDFORCE Cooling System\nLCD Edge View\nRGB Fusion\nDual BIOS\nProtection metal back plate\nAnti-sag bracket\nCORE CLOCK: 2550 MHz (Reference Card: 2505 MHz)\n\nSpecifications:\nGraphics Processing: GeForce RTX™ 4080\nCore Clock: 2550 MHz (Reference Card: 2505 MHz)\nCUDA® Cores: 9728\nMemory Clock: 22.4 Gbps\nMemory Size: 16 GB\nMemory Type: GDDR6X\nMemory Bus: 256 bit\nCard Bus: PCI-E 4.0\nDigital max resolution: 7680x4320\nMulti-view: 4\nCard size: L=357 W=163 H=75 mm\nPCB Form: ATX\nDirectX: 12 Ultimate\nOpenGL: 4.6\nRecommended PSU: 850W\nPower Connectors: 16 pin*1\nOutput: DisplayPort 1.4a *3, HDMI 2.1 *1\n\nAccessories:\nQuick guide\nWarranty registration\nAnti-sag bracket\nAnti-sag bracket installation guide\nOne 16 pin to triple 8-pin power adaptor\nAORUS Metal sticker\n\n\nMore info: Повеќе за производот...",
         "brand": "Gigabyte",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Главен магацин;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);",
         "product_url": "https://anhoch.com/product/599878324/gigabyte-geforce-rtx-4080-aorus-master-16gb-gddr6x-hdmi3xdp-dx12u-pcie-40-windforce-3x",
         "store_name": "Anhoch",
         "product_type": "GPU"

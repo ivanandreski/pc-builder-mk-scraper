@@ -19,14 +19,17 @@ from selenium.webdriver.support import expected_conditions as EC
 def anhoch_scrape():
     today = date.today()
     log_filename = f"anhoch-{today}.log"
-    logging.basicConfig(filename=log_filename, encoding='utf-8', level=logging.INFO)
+    logging.basicConfig(filename=log_filename,
+                        encoding='utf-8', level=logging.INFO)
 
-    DRIVER_PATH = 'driver'
-    # driver = webdriver.Chrome(executable_path=DRIVER_PATH)
-    driver = webdriver.Edge(executable_path=DRIVER_PATH)
-    wait = WebDriverWait(driver, 15)
+    # TODO: probaj web driver logikata da ja stavis vo for key, url, da se resetira na sekoja kategorija
 
     for key, url in anhoch.items():
+        DRIVER_PATH = 'driver'
+        # driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+        driver = webdriver.Edge(executable_path=DRIVER_PATH)
+        wait = WebDriverWait(driver, 15)
+
         if os.path.isfile(f"./scraped_data/anhoch_{key}.json"):
             continue
 
@@ -37,7 +40,8 @@ def anhoch_scrape():
         while True:
             if i > 1:
                 try:
-                    driver.find_element(By.CLASS_NAME, 'icon-angle-right').click()
+                    driver.find_element(
+                        By.CLASS_NAME, 'icon-angle-right').click()
                     print("Sleeping 10 seconds before next page")
                     time.sleep(10)
                 except Exception:
@@ -118,16 +122,19 @@ def anhoch_scrape():
                 logging.info("Price: " + price)
                 product_object.price_mkd = price
 
-                store_tags = driver.find_elements(By.XPATH, '//*[@id="description"]/div[2]/ul/li')
+                store_tags = driver.find_elements(
+                    By.XPATH, '//*[@id="description"]/div[2]/ul/li')
                 for store_tag in store_tags:
                     icon_tag = store_tag.find_element(By.TAG_NAME, 'i')
                     if "icon-ok" in icon_tag.get_attribute('class'):
                         product_object.availability_array += f"{store_tag.find_element(By.TAG_NAME, 'b').text.strip()};"
-                logging.info("Stores: " + str(product_object.availability_array))
+                logging.info(
+                    "Stores: " + str(product_object.availability_array))
 
                 if product_object.availability_array != "":
                     product_object.is_available = True
-                logging.info("Availability: " + str(product_object.is_available))
+                logging.info("Availability: " +
+                             str(product_object.is_available))
 
                 products.append(product_object.toJson())
 
@@ -142,4 +149,4 @@ def anhoch_scrape():
         with open(f"scraped_data/anhoch_{key}.json", "w", encoding="utf-8") as f:
             json.dump(products, f, ensure_ascii=False, indent=4)
 
-    driver.quit()
+        driver.quit()

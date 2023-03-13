@@ -7,7 +7,7 @@
         "description": "SPECIFICATIONS\nType: ATX Mid Tower\nColor: Black\nMaterial: Metal (0.5mm SPCC) / ABS plastic (front panel)\nPSU position: Top od the case\nMBO compatibility: ATX / Micro-ATX / ITX\n\nEXPANSION:\nExternal 5.25 Drive Bays: 2\nInternal 3.5 Drive Bays: 2\nInternal 2.5 Drive Bays: 2\nExpansion slots: 7 horizontal + 2 vertical\n\nFRONT PANEL - PORTS:\nUSB 2.0 x 2 + HD Audio\n\nFAN OPTIONS:\nFront: 2 x 120mm (optional)\nRear: 1 x 80 ili 90mm (optional)\nSide: 2 x 120mm (optional)\n\nDIMENSIONS AND WEIGHT:\nMax GPU lenght: 310mm\nMax CPU cooler height: 148mm\nCase dimensions with foot stand: 358 x 191 x 417.5mm\nCase dimensions: 352.3 x 175 x 407mm\nCarton size: 450 x 222 x 408mm \nWeight: 3.1kg",
         "brand": "SBOX",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч ГТЦ;Главен магацин;Анхоч Прилеп;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч ГТЦ;Главен магацин;Анхоч Прилеп;",
         "product_url": "https://anhoch.com/product/599871503/atx-mid-tower-case-sbox-pcc-180",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -26,19 +26,6 @@
         "product_type": "CASE"
     },
     {
-        "name": "ATX Midi Tower Case SAMA GameStorm Wrangler Gaming Black w/o PSU",
-        "price_mkd": "1790",
-        "original_id": "44463",
-        "image_url": "https://d1a68gwbwfmqto.cloudfront.net/img/products/full/241120211301041.jpg;https://d1a68gwbwfmqto.cloudfront.net/img/products/full/241120211301072.jpg;",
-        "description": "Features:\nCompatible SSD solid state drive and normal desktop hard drives\nSupport 355MM long graphics card\n160MM high CPU cooler\n\nType: Vertical ATX\nProduct Size: 420 (L) * 205 (W) * 423 (H)mm \nExtended drive: 1x 3.5\", 2x 2.5\", 7x PCI expansion card slots \nFront connector: 1x USB3.0 interface, 2x USB2.0 interface, HD Audio \nOptical drive Slot: x1\nFan position: \nFront panel 2x 12cm fan (optional), \nRear panel 1x 12cm fan (optional),\nSide panel 1x 12cm fan (optional)\nSupport motherboard: ATX, M-ATX, ITX",
-        "brand": "SAMA",
-        "is_available": false,
-        "availability_array": "",
-        "product_url": "https://anhoch.com/product/44463/atx-midi-tower-case-sama-gamestorm-wrangler-gaming-black-wo-psu",
-        "store_name": "Anhoch",
-        "product_type": "CASE"
-    },
-    {
         "name": "ATX Midi Tower Case Matrix MX-07 w/ 700W PSU Black",
         "price_mkd": "2090",
         "original_id": "43789",
@@ -46,7 +33,7 @@
         "description": "Model No.: MX-07\n\nFront Panel: ABS+Brush effect\nSide Panel: Perforated Left Side\n\nChassis: SPCC 0.5mm, Black painting interior\n\n2*USB2.0\n1*USB3.0\n+ HD Audio\n\nPSU Port: Upper / ATX\n\nReserved Fan Ports:\nFront: 2x12cm (Fan optional)\nLeft Side: 1x12cm (Fan optional)\nBack: 1x12cm (Fan optional)\nSupport 120mm radiator\n\nDrive Bays:\n5.25\" exposed x1\n3.5\" exposed x0\n3.5\" hidden x2\n2.5\" SSD x3\n\nPCI Slots: x7\n\nMotherboard Support: ATX, M-ATX\n\nSize:\nChassis: L350*W180*H410mm\nCase: L393*W196*H423mm\n\nMax. VGA Card: 345 mm\nMax. CPU Cooler: 165 mm\nCable Management: 21 mm\n\nWeight: 2.90 kg",
         "brand": "Matrix",
         "is_available": true,
-        "availability_array": "Анхоч Action – Capitol Mall;Анхоч ГТЦ;Анхоч Чаир;Анхоч Влае;Магацин - Анхоч Дирекција;Главен магацин;Анхоч РЕМ Центар Тетово;Анхоч Битола;Анхоч Велес;Анхоч Струмица;Анхоч Прилеп;Анхоч Куманово;Анхоч Штип;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч ГТЦ;Анхоч Чаир;Анхоч Влае;Магацин - Анхоч Дирекција;Главен магацин;Анхоч РЕМ Центар Тетово;Анхоч Битола;Анхоч Велес;Анхоч Струмица;Анхоч Прилеп;Анхоч Куманово;Анхоч Штип;",
         "product_url": "https://anhoch.com/product/43789/atx-midi-tower-case-matrix-mx-07-w-700w-psu-black",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -59,7 +46,7 @@
         "description": "Model No.: MX-11\n\nFront Panel: ABS + Metal Net\nSide Panel: Perforated Left Side\n\nChassis: SPCC 0.5mm, Black painting interior\n\nUSB2.0 x2\n+ HD Audio\n\nPSU Port: Upper / ATX\n\nReserved Fan Ports:\nFront: 2x12cm (Fan optional)\nLeft Side: 1x12cm (Fan optional)\nBack: 1x12cm (Fan optional)\nSupport 120mm radiator\n\nDrive Bays:\n5.25\" exposed x2\n3.5\" exposed x0\n3.5\" hidden x2\n2.5\" SSD x3\n\nPCI Slots: x7\n\nMotherboard Support: ATX, M-ATX, ITX\n\nSize:\nChassis: L350*W180*H410mm\nCase: L393*W198*H423mm\n\nMax. VGA Card: 345 mm\nMax. CPU Cooler: 165 mm\nCable Management: 21 mm\n\nWeight: 2.60 kg",
         "brand": "Matrix",
         "is_available": true,
-        "availability_array": "Анхоч Action – Capitol Mall;Анхоч Бисер;Анхоч Чаир;Магацин - Анхоч Дирекција;Главен магацин;Анхоч РЕМ Центар Тетово;Анхоч Битола;Анхоч Велес;Анхоч Струмица;Анхоч Гостивар;Анхоч Куманово;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч Бисер;Анхоч Чаир;Магацин - Анхоч Дирекција;Главен магацин;Анхоч РЕМ Центар Тетово;Анхоч Битола;Анхоч Велес;Анхоч Струмица;Анхоч Гостивар;Анхоч Куманово;",
         "product_url": "https://anhoch.com/product/43788/atx-midi-tower-case-matrix-mx-11-w-700w-psu-black",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -111,7 +98,7 @@
         "description": "Features:\nCompatible SSD solid state drive and normal desktop hard drives\nSupport 370MM long graphics card\n158MM high CPU cooler\nWindow full acrylic side cover\nFront cover with tempered glass\n\nType: Vertical ATX / M-ATX\nProduct Dimension (W x D x H): 401x201x421 mm\nExtended drive: 1x 3.5\", 2x 2.5\"\nOptical Drive slot: No\nFront connector: 1x USB3.0 interface, 2x USB2.0 interface, HD Audio \nFan position: \nFront panel 3x12cm (optional), support 240mm liquid cooler\nRear panel 1x 12cm fan (optional), support 120mm liquid cooler\nPSU cover: 2x12cm fans /2x14cm (optional)\nPSU Position: Top\nSupport motherboard: ATX, Micro-ATX",
         "brand": "SAMA",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Ramstore Mall;Анхоч Влае;Магацин - Анхоч Дирекција;Главен магацин;Анхоч Струмица;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч Ramstore Mall;Анхоч Влае;Магацин - Анхоч Дирекција;Главен магацин;Анхоч Битола;Анхоч Струмица;",
         "product_url": "https://anhoch.com/product/599876399/atx-midi-tower-case-sama-gamestorm-moonlight-3-gaming-black-wo-psu",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -149,8 +136,8 @@
         "image_url": "https://d1a68gwbwfmqto.cloudfront.net/img/products/full/bentaygablack_1.jpg;https://d1a68gwbwfmqto.cloudfront.net/img/products/full/bentaygablack_2.jpg;",
         "description": "Features:\nCompatible SSD solid state drive and normal desktop hard drives\nSupport 330MM long graphics card\n162MM high CPU cooler\nWindow side cover with tempered glass\nARGB Strip in the front\n\nType: Vertical ATX / M-ATX\nProduct Dimension: L390*W204*H470 mm\nExtended drive: 2x 3.5\", 3x 2.5\"\nOptical Drive slot: No\nFront connector: 1x USB3.0 interface, 2x USB2.0 interface, HD Audio \nFan position: \nFront panel 3x12cm (optional), support 240/360mm liquid cooler\nRear panel 1x 12cm fan (optional), support 120mm liquid cooler\nTop Panel: 2x 12cm fan (optional)\nPSU Position: Bottom\nSupport motherboard: ATX, Micro-ATX",
         "brand": "SAMA",
-        "is_available": false,
-        "availability_array": "",
+        "is_available": true,
+        "availability_array": "Анхоч Битола;",
         "product_url": "https://anhoch.com/product/599876413/atx-midi-tower-case-sama-gamestorm-bentayga-gaming-black-argb-strip-wo-psu",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -182,19 +169,6 @@
         "product_type": "CASE"
     },
     {
-        "name": "ATX Midi Tower Case SAMA Inpower Armor T5 Gaming Black 200mm ARGB Fan w/o PSU",
-        "price_mkd": "2590",
-        "original_id": "599871492",
-        "image_url": "https://d1a68gwbwfmqto.cloudfront.net/img/products/full/armort5black_1.jpg;https://d1a68gwbwfmqto.cloudfront.net/img/products/full/armort5black_2.jpg;",
-        "description": "Features:\nCompatible SSD solid state drive and normal desktop hard drives\nSupport 345MM long graphics card\n160MM high CPU cooler\nWindow side cover with tempered glass\n\nType: Vertical ATX\nProduct Size: 425(L)*210(W)*441(H)mm \nExtended drive: 2x 3.5\", 2x 2.5\"\nODD Slot: No\nFront connector: 1x USB3.0 interface, 2x USB2.0 interface, HD Audio \nFan position: \nFront panel 1x 20cm ARGB fan (Pre-installed), \nRear panel 1x 12cm fan (optional),\nTop: 2x 12cm fan (optional)\nSupport motherboard: ATX, M-ATX, ITX",
-        "brand": "SAMA",
-        "is_available": false,
-        "availability_array": "",
-        "product_url": "https://anhoch.com/product/599871492/atx-midi-tower-case-sama-inpower-armor-t5-gaming-black-200mm-argb-fan-wo-psu",
-        "store_name": "Anhoch",
-        "product_type": "CASE"
-    },
-    {
         "name": "ATX Midi Tower Case SAMA GameStorm Time 5 Gaming Black w/o PSU",
         "price_mkd": "2590",
         "original_id": "599876412",
@@ -202,7 +176,7 @@
         "description": "Features:\nCompatible SSD solid state drive and normal desktop hard drives\nSupport 330MM long graphics card\n160MM high CPU cooler\nWindow side cover with tempered glass\nFront cover with tempered glass\n\nType: Vertical ATX / M-ATX\nProduct Dimension (W x D x H): 357*205*445 mm\nExtended drive: 2x 3.5\", 2x 2.5\"\nOptical Drive slot: No\nFront connector: 1x USB3.0 interface, 2x USB2.0 interface, HD Audio \nFan position: \nFront panel 3x12cm (optional), support 240/360mm liquid cooler\nRear panel 1x 12cm fan (optional), support 120mm liquid cooler\nTop Panel: 2x 12cm fan (optional)\nPSU Position: Bottom\nSupport motherboard: ATX, Micro-ATX",
         "brand": "SAMA",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч ГТЦ;Анхоч Чаир;Анхоч Влае;Главен магацин;Анхоч Битола;Анхоч Струмица;Анхоч Гостивар;Анхоч Штип;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч ГТЦ;Анхоч Чаир;Анхоч Влае;Главен магацин;Анхоч Охрид;Анхоч Битола;Анхоч Струмица;Анхоч Гостивар;Анхоч Штип;",
         "product_url": "https://anhoch.com/product/599876412/atx-midi-tower-case-sama-gamestorm-time-5-gaming-black-wo-psu",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -234,6 +208,19 @@
         "product_type": "CASE"
     },
     {
+        "name": "ATX Midi Tower Case SAMA Inpower Armor V1 (Deluxe Edition) Gaming Black ARGB Strip w/o PSU",
+        "price_mkd": "2690",
+        "original_id": "599871493",
+        "image_url": "https://d1a68gwbwfmqto.cloudfront.net/img/products/full/armorv1de_1.jpg;https://d1a68gwbwfmqto.cloudfront.net/img/products/full/armorv1de_2.jpg;",
+        "description": "Features:\nCompatible SSD solid state drive and normal desktop hard drives\nSupport 330MM long graphics card\n160MM high CPU cooler\nARGB Strip in the front\nWindow side cover with tempered glass\n\nType: Vertical ATX\nProduct Size: 389(L)*205(W)*450(H)mm \nExtended drive: 2x 3.5\", 2x 2.5\"\nODD Slot: No\nFront connector: 1x USB3.0 interface, 2x USB2.0 interface, HD Audio \nFan position: \nFront panel 3x 12cm fan (optional), \nRear panel 1x 12cm fan (optional),\nTop: 2x 12cm fan (optional)\nSupport motherboard: ATX, M-ATX, ITX",
+        "brand": "SAMA",
+        "is_available": true,
+        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч ГТЦ;Анхоч Бисер;Анхоч Чаир;Анхоч Влае;Магацин - Анхоч Дирекција;Главен магацин;Анхоч РЕМ Центар Тетово;Анхоч Охрид;Анхоч Битола;Анхоч Струмица;Анхоч Гостивар;Анхоч Штип;",
+        "product_url": "https://anhoch.com/product/599871493/atx-midi-tower-case-sama-inpower-armor-v1-deluxe-edition-gaming-black-argb-strip-wo-psu",
+        "store_name": "Anhoch",
+        "product_type": "CASE"
+    },
+    {
         "name": "ATX Micro Case Deepcool MATREXX 30 w/USB 3.0, 2x USB 2.0, 120mm Fan",
         "price_mkd": "2690",
         "original_id": "599866517",
@@ -247,19 +234,6 @@
         "product_type": "CASE"
     },
     {
-        "name": "ATX Midi Tower Case SAMA Inpower Armor V1 (Deluxe Edition) Gaming Black ARGB Strip w/o PSU",
-        "price_mkd": "2690",
-        "original_id": "599871493",
-        "image_url": "https://d1a68gwbwfmqto.cloudfront.net/img/products/full/armorv1de_1.jpg;https://d1a68gwbwfmqto.cloudfront.net/img/products/full/armorv1de_2.jpg;",
-        "description": "Features:\nCompatible SSD solid state drive and normal desktop hard drives\nSupport 330MM long graphics card\n160MM high CPU cooler\nARGB Strip in the front\nWindow side cover with tempered glass\n\nType: Vertical ATX\nProduct Size: 389(L)*205(W)*450(H)mm \nExtended drive: 2x 3.5\", 2x 2.5\"\nODD Slot: No\nFront connector: 1x USB3.0 interface, 2x USB2.0 interface, HD Audio \nFan position: \nFront panel 3x 12cm fan (optional), \nRear panel 1x 12cm fan (optional),\nTop: 2x 12cm fan (optional)\nSupport motherboard: ATX, M-ATX, ITX",
-        "brand": "SAMA",
-        "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч ГТЦ;Анхоч Бисер;Анхоч Чаир;Анхоч Влае;Магацин - Анхоч Дирекција;Главен магацин;Анхоч РЕМ Центар Тетово;Анхоч Битола;Анхоч Струмица;Анхоч Гостивар;Анхоч Штип;",
-        "product_url": "https://anhoch.com/product/599871493/atx-midi-tower-case-sama-inpower-armor-v1-deluxe-edition-gaming-black-argb-strip-wo-psu",
-        "store_name": "Anhoch",
-        "product_type": "CASE"
-    },
-    {
         "name": "ATX Midi Tower Case SAMA GameStorm Wolverine Gaming Black ARGB Strip w/o PSU",
         "price_mkd": "2790",
         "original_id": "599876414",
@@ -267,7 +241,7 @@
         "description": "Features:\nCompatible SSD solid state drive and normal desktop hard drives\nSupport 350MM long graphics card\n160MM high CPU cooler\nWindow side cover with tempered glass\nARGB Strip in the front\n\nType: Vertical ATX / M-ATX\nProduct Dimension: L425*W210*H450 mm\nExtended drive: 2x 3.5\", 3x 2.5\"\nOptical Drive slot: No\nFront connector: 1x USB3.0 interface, 2x USB2.0 interface, HD Audio \nFan position: \nFront panel 3x12cm (optional), support 240/360mm liquid cooler\nRear panel 1x 12cm fan (optional), support 120mm liquid cooler\nTop Panel: 2x 12cm fan (optional)\nPSU Position: Bottom\nSupport motherboard: ATX, Micro-ATX",
         "brand": "SAMA",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч ГТЦ;Анхоч Чаир;Анхоч Влае;Главен магацин;Анхоч РЕМ Центар Тетово;Анхоч Битола;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч ГТЦ;Анхоч Чаир;Анхоч Влае;Главен магацин;Анхоч Битола;",
         "product_url": "https://anhoch.com/product/599876414/atx-midi-tower-case-sama-gamestorm-wolverine-gaming-black-argb-strip-wo-psu",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -280,7 +254,7 @@
         "description": "Features:\nCompatible SSD solid state drive and normal desktop hard drives\nSupport 350MM long graphics card\n160MM high CPU cooler\nWindow side cover with tempered glass\nARGB Strip in the front\n\nType: Vertical ATX / M-ATX\nProduct Dimension (W x D x H): 425*208*457 mm\nExtended drive: 2x 3.5\", 2x 2.5\"\nOptical Drive slot: No\nFront connector: 1x USB3.0 interface, 2x USB2.0 interface, HD Audio \nFan position: \nFront panel 3x12cm (optional), support 240mm liquid cooler\nRear panel 1x 12cm fan (optional), support 120mm liquid cooler\nTop Panel: 2x 12cm fan (optional), support 240mm liquid cooler\nPSU Position: Bottom\nSupport motherboard: ATX, Micro-ATX",
         "brand": "SAMA",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч ГТЦ;Анхоч Чаир;Анхоч Влае;Главен магацин;Анхоч Охрид;Анхоч Битола;Анхоч Струмица;",
+        "availability_array": "Анхоч Action – Capitol Mall;Анхоч ГТЦ;Анхоч Чаир;Анхоч Влае;Главен магацин;Анхоч Охрид;Анхоч Битола;Анхоч Струмица;",
         "product_url": "https://anhoch.com/product/599876400/atx-midi-tower-case-sama-gamestorm-class-gaming-black-argb-strip-wo-psu",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -293,7 +267,7 @@
         "description": "Features:\nCompatible SSD solid state drive and normal desktop hard drives\nSupport 315MM long graphics card\n154MM high CPU cooler\nARGB Strip in the front\nWindow side cover with tempered glass\n\nType: Vertical ATX / M-ATX / ITX\nProduct Size: 397 (L) * 210 (W) * 450 (H)mm \nExtended drive: 3x 3.5\", 2x 2.5\"\nOptical Drive slot: No\nFront connector: 1x USB3.0 interface, 2x USB2.0 interface, HD Audio \nFan position: \nFront panel 3x12cm / 2x14cm fans (optional), support 120/240/280 liquid cooler\nRear panel 1x 12cm fan (optional), support 120 liquid cooler\nTop panel 2x12cm fans (optional), support 120/240mm liquid cooler\nPSU cover: 2x12cm fans (optional)\nSupport motherboard: ATX, Micro-ATX, ITX",
         "brand": "SAMA",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч ГТЦ;Анхоч Чаир;Анхоч Влае;Магацин - Анхоч Дирекција;Главен магацин;Анхоч Битола;Анхоч Струмица;Анхоч Гостивар;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч ГТЦ;Анхоч Чаир;Анхоч Влае;Главен магацин;Анхоч Охрид;Анхоч Битола;Анхоч Струмица;Анхоч Гостивар;",
         "product_url": "https://anhoch.com/product/599869882/atx-midi-tower-case-sama-gamestorm-journey-gaming-black-argb-strip-wo-psu",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -306,7 +280,7 @@
         "description": "Features:\nCompatible SSD solid state drive and normal desktop hard drives\nSupport 350MM long graphics card\n166MM high CPU cooler\nARGB Strip in the front\nWindow side cover with tempered glass\n\nType: Vertical ATX\nProduct Size: 418(L)*215(W)*480(H)mm \nExtended drive: 3x 3.5\", 3x 2.5\"\nODD Slot: No\nFront connector: 1x USB3.0 interface, 2x USB2.0 interface, HD Audio \nFan position: \nFront panel 3x 12cm fan (optional), \nRear panel 1x 12cm fan (optional),\nTop: 2x 12cm fan (optional)\nSupport motherboard: ATX, M-ATX, ITX",
         "brand": "SAMA",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч Ramstore Mall;Анхоч Чаир;Анхоч Влае;Главен магацин;Анхоч РЕМ Центар Тетово;Анхоч Гостивар;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч Ramstore Mall;Анхоч Чаир;Анхоч Влае;Главен магацин;Анхоч РЕМ Центар Тетово;Анхоч Битола;Анхоч Гостивар;",
         "product_url": "https://anhoch.com/product/599871490/atx-midi-tower-case-sama-inpower-baidu-gaming-black-argb-strip-wo-psu",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -345,7 +319,7 @@
         "description": "Features:\nCompatible SSD solid state drive and normal desktop hard drives\nSupport 350MM long graphics card\n166MM high CPU cooler\nARGB Strip in the front\nWindow side cover with tempered glass\n\nType: Vertical E-ATX / ATX / M-ATX / ITX\nProduct Size: 425 (L) * 215 (W) * 480 (H)mm \nExtended drive: 2x 3.5\" or 1x 2.5\" + 1x 3.5\" and 2x 2.5\" or 1x 3.5\"\nOptical Drive slot: No\nFront connector: 1x USB3.0 interface, 2x USB2.0 interface, HD Audio \nFan position: \nFront panel 3x12cm / 2x14cm fans (optional), support 240/280/360 liquid cooler\nRear panel 1x 12cm fan (optional), support 120 liquid cooler\nTop panel 2x12cm / 2x14cm fans (optional), support 120/240/280 liquid cooler\nPSU box: 2x12cm fans (optional)\nSupport motherboard: E-ATX, ATX, Micro-ATX, ITX",
         "brand": "SAMA",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Магацин - Анхоч Дирекција;Анхоч РЕМ Центар Тетово;Анхоч Битола;Анхоч Велес;Анхоч Гостивар;Анхоч Штип;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч РЕМ Центар Тетово;Анхоч Битола;Анхоч Велес;Анхоч Гостивар;",
         "product_url": "https://anhoch.com/product/599869880/atx-e-atx-midi-tower-case-sama-yuhui-follower-gaming-black-argb-strip-wo-psu",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -526,8 +500,8 @@
         "image_url": "https://d1a68gwbwfmqto.cloudfront.net/img/products/full/rcc560bkgaa4g1_1.jpg;https://d1a68gwbwfmqto.cloudfront.net/img/products/full/rcc560bkgaa4g1_2.jpg;",
         "description": "The DeepCool CC560 Mid-Tower Case offers outstanding value with spacious component compatibility, a full-sized tempered glass window, and a total of four pre-installed LED fans that gets any build started right.\n\nAbundant Airflow Performance\nWell ventilated throughout the entire chassis, the CC560 sports an airflow front panel and a large mesh top panel to ensure fresh air is circulating.\n\nPrimed and Ready\nA total of 4 pre-installed LED fans delivers big airflow performance ensuring any system build is receiving top-notch cooling capacity.\n\nWide Cooling Support\nEnough space to support high-performance AIO liquid coolers with room for 360mm radiators in front or 240mm on top. Cooling fan support for up to 6x 120mm or 4x 140mm.\n\nCompatibility\nMax CPU Cooler Height: 163mm; Max GPU Length: 370mm; Max PSU Length: 170mm\n\nStorage Solutions\nInstall up to 2x 2.5” SSDs directly on the backplate and 2x 3.5” HDDs underneath the shroud in a removeable drive cage for adjustability.\n\nTechnical Spec\nProduct Dimensions: 416×210×477mm(L×W×H)\nNet Weight: 5.25Kg\nMaterials: ABS+SPCC+Tempered Glass\nMotherboard Support: Mini-ITX / Micro-ATX / ATX\nFront I/O Ports: USB3.0×1、USB2.0×1、Audio×1\n3.5\" Drive Bays: 2\n2.5\" Drive Bays: 2+1\nExpansion Slots: 7 Slots\nPre-Installed Fans: Front: 3×120mm\nRear: 1×120mm\nFan Support: Front: 3×120 / 2×140mm\nTop: 2×120 / 2×140mm\nRear: 1×120mm\nRadiator Support: Front: 120/140/240/280/360mm\nTop: 120/240mm\nRear: 120mm\nCPU Cooler Height Limit: 163mm\nGPU Length Limit: 370mm\nPower Supply Type: ATX PS2(maximum length: 170mm)\n\nMore Info: Повеќе за производот...",
         "brand": "DeepCool",
-        "is_available": false,
-        "availability_array": "",
+        "is_available": true,
+        "availability_array": "Анхоч РЕМ Центар Тетово;Анхоч Велес;Анхоч Куманово;",
         "product_url": "https://anhoch.com/product/599877160/atx-midi-tower-case-deepcool-cc560-black-wusb-30-usb-20-4x-120mm-led-fans",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -579,7 +553,7 @@
         "description": "Mesh Certified Makes It Work\nCan install up to 6x system fans, providing ventilation and stable performance to the whole system\nBuilt-in ARGB fan with striking lighting and vivid lighting effects\nPremium-grade 4mm thick tempered glass that guarantees window durability and viewing capability\nThe magnetic dust filter on top is designed to give users an easy un-installing and cleaning experience\nQuickly control the fan color and lighting effects with Insta-Light Loop at the touch of a button\n\nProduct Name: MAG VAMPIRIC 100R\nSupport MB Form Factor: ATX / M-ATX / Mini-ITX\nDimension (W) x (D) x (H): 205 x 390 x 457 mm / 8.07 x 15.35 x 17.99 inches\nI/O Ports: 1 x USB 3.2 Gen 1 Type A / 2 x USB 2.0 / HD Audio / Mic\nDriver Bays: 2 x 2.5\" + 2 x 3.5\" (1 x compatible with 2.5\")\nVGA Card Support: Max 300 mm / 11.81 inch\nCPU Cooler Support: Max 160 mm / 6.3 inch\nPower Supply: Standard ATX, max to 270 mm( without 3.5\" HDD tray installed )\nCooling Layout: Front Max: 3 x 120 mm or 2 x 140 mm(1 x 120 mm Fan included), Top: Max: 2 x 120 mm, Rear: 1 x 120 mm(1 x 120 mm ARGB Fan included)\nRadiator Layout: Front: up to 240 mm / Rear: up to 120 mm\n\nMore info: Повеќе за производот...",
         "brand": "MSI",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч РЕМ Центар Тетово;Анхоч Струмица;",
+        "availability_array": "Anhoch Premium (комплекс МиДа);Магацин - Анхоч Дирекција;Анхоч РЕМ Центар Тетово;Анхоч Струмица;",
         "product_url": "https://anhoch.com/product/599876316/atx-mid-tower-case-msi-mag-vampiric-100r-argb",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -683,7 +657,7 @@
         "description": "General\nForm Factor: ATX, E-ATX\nExpansion Slots: 7\nInterior Painting: Yes\nCable Management System: Yes\nSide Panel Tempered Glass: Yes\nVGA Holder: Yes\nColor Versions: Blue, Red\n\nWeight & Dimensions\nWeight: 8.44 kg\nDimensions (L x W x H): 50.3 x 21 x 47.5 cm\n\nMax. Drive Bays\n5.25\": 1\n3.5\": 3\n2.5\": 5\n\nI/O\nUSB 3.0 (Top): 2\nUSB 2.0 (Top): 2\nAudio (Top): Yes\n\nFan Configuration\nFront Panel: 2x 120 mm LED fan (pre-installed) or radiator (optional)\nSide Panel: 2x 120 mm fan (optional) or radiator (optional) (* If HDD/SSD mounting cover is removed)\nRear Panel: 1x 120 mm LED fan (pre-installed)\nBottom Panel: 3x 120 mm fan (optional) or radiator (optional) (** Internal USB 3.0 connection to mainboard may conflict with space for radiator. Check before installation.)\n\nCompatibility\nMainboard: Mini-ITX, Micro-ATX, ATX, E-ATX\nMax. Length Graphics Cards: 42 cm (*** 30 cm if radiator is installed on side panel.)\nMax. Height CPU Cooler: 16 cm\nMax. Length Power Supply: 29.5 cm\nMax. Height Radiator incl. Fan (Front): 14.5 cm\n\nPackage Contents\nNIGHT SHARK\nAccessory Set\nManual\n\nMore Info:\nПовеќе за производот...",
         "brand": "Sharkoon",
         "is_available": true,
-        "availability_array": "Анхоч Action – Capitol Mall;Анхоч Чаир;Анхоч Струмица;",
+        "availability_array": "Анхоч Чаир;Анхоч Струмица;",
         "product_url": "https://anhoch.com/product/599869707/atx-e-atx-midi-tower-case-sharkoon-night-shark-gaming-w2xusb-30-2xusb-20-3x120mm-blue-fans",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -865,7 +839,7 @@
         "description": "MPG GUNGNIR 100D\nBATTLE WITH THE DRAGON\n\nMSI MPG GUNGNIR 100D chassis can support up to EATX motherboard, side panel of 4mm tempered glass, 120 mm SYS fan, reserved cooling space and front USB 3.1 Gen 1\n4mm Tempered Glasses\nSystem Fan Included\nOptimized Air Flow\nMSI GAMING Dragon Logo\n420mm Radiator Support\n170mm CPU Cooler Support\n\nPRODUCT NAME: MPG GUNGNIR 100D\nWEIGHT: 9.25 KG\nI/O PORTS: 2 x USB 3.0 + HD Audio / Mic\nDRIVER BAYS: 2 x 3.5\" (compatible with 2.5\") + 2 x 2.5\"\nCASE EXPANSION SLOTS: 7\nMAXIMUM PSU LENGTH: 200mm\nMAXIMUM GPU LENGTH: 400mm\nMAXIMUM CPU COOLER LENGTH: 170mm\nRADIATOR COMPATIBILITY: 120 / 140 / 240 / 280 / 360 / 420mm\nPOWER SUPPLY: Standard ATX\nCOOLING LAYOUT: \"Front: 3 x 120 or 3 x 140mm\nTop: 3 x 120mm or 2 x 140mm\nRear: 1 x 120 or 1 x 140mm\n1 x 120mm FAN included(Rear)\"\nFORM FACTOR: Mid-Tower\nSUPPORT MB FORM FACTOR: EATX (up to 272mm) / ATX / mATX / Mini-ITX\nDIMENSION: 510(D) x 227(W) x 525(H) mm\n\nMore info: Повеќе за производот...",
         "brand": "MSI",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч Чаир;Анхоч Влае;Анхоч Битола;Анхоч Струмица;Анхоч Прилеп;",
+        "availability_array": "Анхоч Action – Capitol Mall;Анхоч Чаир;Анхоч Влае;Анхоч Битола;Анхоч Струмица;Анхоч Прилеп;",
         "product_url": "https://anhoch.com/product/599866366/atx-e-atx-mid-tower-case-msi-mpg-gungnir-100d-red-dragon-bezel",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -878,7 +852,7 @@
         "description": "The DeepCool CG540 Mid-Tower Case displays a striking tempered glass panel and generous cooling capacity in an updated modern design that makes system building a breeze with four pre-installed fans.\n\nOn Full Display\nPut on a show with tempered glass side and front panels lined with optimized ventilation for proper airflow performance.\n\nShine Bright\nThree pre-installed 120mm ARGB fans installed in front illuminate through the designed tempered glass. An additional 140mm black fan is featured in the rear for increased airflow.\n\nExpansive Cooling Capacity\nGet big cooling potential with support up to 6x 120mm or 5x 140mm case fans, and multiple radiator configurations for 360mm installed in front and 280mm up top. \n\nCompatibility\nMax CPU Cooler Height: 175mm; Max GPU Length: 380mm; Max PSU Length: 170mm \n\nComplete Storage\nInstall up to 2x 2.5” SSDs directly on the backplate and 2x 3.5” HDDs underneath the shroud for ample storage discreetly tucked away.\n\nEasy Access Side Panels\nQuickly get to your internal components with simple slide and latch side panels and a solid tempered glass window to highlight your system.\n\nFront I/O Panel\nAlong with two USB 3.0 ports and a combination audio/mic jack, the reset button is custom configured to control preset lighting effects on the three pre-installed ARGB fans.\n\nTechnical Spec\nProduct Dimensions: 455×230×470mm(L×W×H)\nNet Weight: 7.5Kg\nMaterials: ABS+SPCC+Tempered Glass\nMotherboard Support: Mini-ITX / Micro-ATX / ATX / E-ATX\nFront I/O Ports: USB3.0×2、Audio×1\n3.5\" Drive Bays: 2\n2.5\" Drive Bays: 2+1\nExpansion Slots: 7 Slots\nPre-Installed Fans: Front: 3×120mm Rear: 1×140mm\nFan Support: Front: 3×120 / 2×140mm Top: 2×120 / 2×140mm Rear: 1×120 / 1×140mm\nRadiator Support: Front: 120/140/240/280/360mm Top: 120/140/240/280mm Rear: 120/140mm\nCPU Cooler Height Limit: 175mm\nGPU Length Limit: 380mm\nPower Supply Type: ATX PS2（maximum length: 170mm）\n\nMore Info: Повеќе за производот...",
         "brand": "DeepCool",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Главен магацин;Анхоч Охрид;Анхоч Битола;Анхоч Штип;",
+        "availability_array": "Анхоч Action – Capitol Mall;Главен магацин;Анхоч Охрид;Анхоч Битола;Анхоч Штип;",
         "product_url": "https://anhoch.com/product/599877162/atx-e-atx-midi-tower-case-deepcool-cg540-black-w2x-usb-30-3x-argb-fans1x-140mm-fan",
         "store_name": "Anhoch",
         "product_type": "CASE"
@@ -917,7 +891,7 @@
         "description": "A compact ATX computer case supports motherboards up to E-ATX.\nFull sized 4mm thickness, tempered glass side panel and the front panel give the case a unique look and perfectly show off your inner structure.\nThe addressable RGB lighting strip in the front, is easily controlled by manual button or via motherboard; Two extra connectors are ready for motherboard SYNC control with any combination with other DEEPCOOL/GAMER STORM brand 5V ADD-RGB devices and also other brand 5V ADD-RGB devices.\nSupports installation of 120/140/240/280/360mm radiator liquid cooling system in the front, 120/140/240mm radiator liquid cooling system on top and 120mm radiator liquid cooling system in the back.\nSupports 370mm (MAX) long Graphic Card installation.\nOptimized airflow is guaranteed with large air intakes on two sides of the front panel, keeping your components cool.\nThe 210mm wide tower compartment with 23mm clearance is perfect for cable management.\nA magnetic dustproof net on top and dust-filter in the front and bottom.\nWith PSU shroud to keep internal neat and tidy.\n\nTechnical Spec\nMotherboards: E-ATX/ATX/Micro-ATX/Mini-ITX\nCase Type: Middle Tower\nMaterials: ABS+SPCC+Tempered Glass\nProduct Dimensions (L×W×H): 446×210×479mm\nNet Weight: 7.4 kg\nGross Weight: 8.5 kg\n5.25\" Drive Bays: 0\n3.5\"/2.5\" Drive Bays: 2\n2.5\" Drive Bays: 2+2\nI/O Ports: 1×USB3.0/2×USB2.0/1×Audio/1×Mic\nExpansion Slots: 7\nPower Supply Type: ATX PS2 (maximum length: 170mm)\nCable Management: 23mm Clearance\nCPU Cooler Height Limit: 165mm\nVGA Length Limit: 370mm Horizontal, 340mm Vertical\nCooling Fans Support: Pre-installed：Front 3×120mm ADD-RGB FAN;  Optional: Rear: 1×120mm;Front: 3×120mm / 3×140mm; Top: 2×120/ 2×140mm\nLiquid Cooler Support: Front: 120/140/240/280/360mm radiator; Top: 120/140/240mm radiator; Rear: 120mm radiator\nCarton Dimension (L×W×H): 515×275×510mm\n\nMore Info:\nПовеќе за производот...",
         "brand": "DeepCool",
         "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Анхоч Action – Capitol Mall;Анхоч Чаир;Анхоч Влае;Магацин - Анхоч Дирекција;Главен магацин;Анхоч РЕМ Центар Тетово;Анхоч Охрид;Анхоч Битола;",
+        "availability_array": "Анхоч Action – Capitol Mall;Анхоч Чаир;Анхоч Влае;Магацин - Анхоч Дирекција;Главен магацин;Анхоч РЕМ Центар Тетово;Анхоч Охрид;Анхоч Битола;",
         "product_url": "https://anhoch.com/product/599870103/atx-e-atx-midi-tower-case-deepcool-matrexx-55-v3-add-rgb-wh-3f-wusb-30-2x-usb-20-x3-rgb-fans",
         "store_name": "Anhoch",
         "product_type": "CASE"

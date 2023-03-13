@@ -32,8 +32,8 @@
         "image_url": "https://d1a68gwbwfmqto.cloudfront.net/img/products/full/100100000644box_1.jpg;",
         "description": "General Specifications\nPlatform: Desktop\nMarket Segment: Mainstream Desktop\nProduct Family: AMD Ryzen™ Processors\nProduct Line: AMD Ryzen™ 5 Desktop Processors\nConsumer Use: Yes\nFormer Codename: \"Renoir\"\nArchitecture: \"Zen 2\"\n# of CPU Cores: 6\nMultithreading (SMT): Yes\n# of Threads: 12\nMax. Boost Clock: Up to 4.1GHz\nBase Clock: 3.6GHz\nL1 Cache: 384KB\nL2 Cache: 3MB\nL3 Cache: 8MB\nDefault TDP: 65W\nProcessor Technology for CPU Cores: TSMC 7nm FinFET\nCPU Compute Die (CCD) Size: 180mm²\nPackage Die Count: 1\nUnlocked for Overclocking : Yes\nCPU Socket: AM4\nSocket Count: 1P\nSupporting Chipsets: X570, X470, X370, B550, B450, B350, A520, A320\nCPU Boost Technology: Precision Boost 2\nInstruction Set: x86-64\nSupported Extensions: AES, AMD-V, AVX, AVX2, FMA3, MMX(+), SHA, SSE, SSE2, SSE3, SSE4.1, SSE4.2, SSE4A, SSSE3, x86-64\nThermal Solution (PIB): AMD Wraith Stealth\nMax. Operating Temperature (Tjmax): 95°C\n*OS Support: \nWindows 11 - 64-Bit Edition\nWindows 10 - 64-Bit Edition\nRHEL x86 64-Bit\nUbuntu x86 64-Bit\n*Operating System (OS) support will vary by manufacturer.\n\nConnectivity\nUSB Type-C® Support: Yes\nNative USB 3.2 Gen 2 (10Gbps) Ports: 4\nNative USB 3.2 Gen 1 (5Gbps) Ports: 0\nNative USB 2.0 (480Mbps) Ports: 0\nNative SATA Ports: 2\nPCI Express® Version: PCIe 3.0\nNative PCIe® Lanes (Total/Usable): 24/20\nAdditional Usable PCIe Lanes from Motherboard\nAMD X570: 16x Gen 3\nAMD X470: 2x Gen 3\nAMD X470: 8x Gen 2\nNVMe Support: Boot, RAID0, RAID1, RAID10\nSystem Memory Type: DDR4\nMemory Channels: 2\nMax. Memory: 128GB\nSystem Memory Subtype: UDIMM\nSystem Memory Specification: Up to 3200MHz\nMax Memory Speed\n2x1R: DDR4-3200\n2x2R: DDR4-3200\n4x1R: DDR4-2933\n4x2R: DDR4-2667\nECC Support: No\n\nGraphics Capabilities\nIntegrated Graphics: No\nGraphics Model: Discrete Graphics Card Required\n\nKey Features: \nSupported Technologies\nAMD StoreMI Technology\nAMD \"Zen 2\" Core Architecture\nAMD Ryzen™ VR-Ready Premium",
         "brand": "AMD",
-        "is_available": true,
-        "availability_array": "Главен магацин;",
+        "is_available": false,
+        "availability_array": "",
         "product_url": "https://anhoch.com/product/599877102/cpu-amd-ryzen-5-4500-6-core-36ghz-am4-11mb-box-wwraith-stealth-cooler",
         "store_name": "Anhoch",
         "product_type": "CPU"
@@ -84,8 +84,8 @@
         "image_url": "https://d1a68gwbwfmqto.cloudfront.net/img/products/full/100100000065box_1.jpg;",
         "description": "Platform: Desktop\nMarket Segment: Mainstream Desktop\nProduct Family: AMD Ryzen™ Processors\nProduct Line: AMD Ryzen™ 5 Desktop Processors\nConsumer Use: Yes\nRegional Availability: Global, China, NA, EMEA, APJ, LATAM\nFormer Codename: \"Cezanne\"\nArchitecture: \"Zen 3\"\n# of CPU Cores: 6\nMultithreading (SMT): Yes\n# of Threads: 12\nMax. Boost Clock: Up to 4.2GHz\nBase Clock: 3.6GHz\nL1 Cache: 384KB\nL2 Cache: 3MB\nL3 Cache: 16MB\nDefault TDP: 65W\nProcessor Technology for CPU Cores: TSMC 7nm FinFET\nCPU Compute Die (CCD) Size: 180mm²\nPackage Die Count: 1\nUnlocked for Overclocking: Yes\nCPU Socket: AM4\nSocket Count: 1P\nSupporting Chipsets:\nX570, X470, X370, B550, B450, B350, A520\nCPU Boost Technology: Precision Boost 2\nInstruction Set: x86-64\nSupported Extensions: AES, AMD-V, AVX, AVX2, FMA3, MMX(+), SHA, SSE, SSE2, SSE3, SSE4.1, SSE4.2, SSE4A, SSSE3, x86-64\nThermal Solution (PIB): AMD Wraith Stealth\nMax. Operating Temperature (Tjmax): 90°C\n*OS Support: \nWindows 11 - 64-Bit Edition\nWindows 8.1 - 64-Bit Edition\nRHEL x86 64-Bit\nUbuntu x86 64-Bit\n*Operating System (OS) support will vary by manufacturer.\n\nConnectivity\nUSB Type-C® Support: Yes\nNative USB 4 (40Gbps) Ports: 0\nNative USB 3.2 Gen 2 (10Gbps) Ports: 4\nNative USB 3.2 Gen 1 (5Gbps) Ports: 0\nNative USB 2.0 (480Mbps) Ports: 0\nNative SATA Ports: 2\nPCI Express® Version: PCIe 3.0\nNative PCIe® Lanes (Total/Usable): 24/20\nAdditional Usable PCIe Lanes from Motherboard\nAMD X570: 16x Gen 3\nAMD X470: 2x Gen 3\nAMD X470: 8x Gen 2\nNVMe Support: Boot, RAID0, RAID1, RAID10\nSystem Memory Type: DDR4\nMemory Channels: 2\nMax. Memory: 128GB\nSystem Memory Subtype: UDIMM\nSystem Memory Specification: Up to 3200MHz\nMax Memory Speed\n2x1R: DDR4-3200\n2x2R: DDR4-3200\n4x1R: DDR4-2933\n4x2R: DDR4-2667\nECC Support: No\n\nGraphics Capabilities\nIntegrated Graphics: No\nGraphics Model: Discrete Graphics Card Required\n\nKey Features: \nSupported Technologies\nAMD StoreMI Technology\nAMD \"Zen 3\" Core Architecture\nAMD Ryzen™ VR-Ready Premium",
         "brand": "AMD",
-        "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Магацин - Анхоч Дирекција;",
+        "is_available": false,
+        "availability_array": "",
         "product_url": "https://anhoch.com/product/599876617/cpu-amd-ryzen-5-5500-6-core-36ghz-am4-19mb-box-wwraith-stealth-cooler",
         "store_name": "Anhoch",
         "product_type": "CPU"
@@ -123,8 +123,8 @@
         "image_url": "https://d1a68gwbwfmqto.cloudfront.net/img/products/full/100100000252box_1.jpg;",
         "description": "AMD Ryzen™ 5 5600G\nGeneral Specifications\nPlatform: Boxed Processor\nProduct Family: AMD Ryzen™ Processors\nProduct Line: AMD Ryzen™ 5 5000 G-Series Desktop Processors with Radeon™ Graphics\n# of CPU Cores: 6\n# of Threads: 12\nMax. Boost Clock: Up to 4.4GHz\nBase Clock: 3.9GHz\nTotal L2 Cache: 3MB\nTotal L3 Cache: 16MB\nDefault TDP: 65W\nAMD Configurable TDP (cTDP): 45-65W\nProcessor Technology for CPU Cores: TSMC 7nm FinFET\nUnlocked for Overclocking: Yes\nCPU Socket: AM4\nThermal Solution (PIB): Wraith Stealth\nMax. Operating Temperature (Tjmax): 95°C\n*OS Support\nWindows 11 - 64-Bit Edition\nWindows 10 - 64-Bit Edition\nRHEL x86 64-Bit\nUbuntu x86 64-Bit\n*Operating System (OS) support will vary by manufacturer.\n\nConnectivity\nPCI Express® Version: PCIe® 3.0\nSystem Memory Type: DDR4\nMemory Channels: 2\nSystem Memory Specification: Up to 3200MHz\n\nGraphics Capabilities\nGraphics Model: Radeon™ Graphics\nGraphics Core Count: 7\nGraphics Frequency: 1900 MHz",
         "brand": "AMD",
-        "is_available": true,
-        "availability_array": "Anhoch Premium (комплекс МиДа);Главен магацин;",
+        "is_available": false,
+        "availability_array": "",
         "product_url": "https://anhoch.com/product/599873923/cpu-amd-ryzen-5-5600g-6-core-39ghz-am4-19mb-box-wradeon-graphics-wraith-stealth-cooler",
         "store_name": "Anhoch",
         "product_type": "CPU"
@@ -191,19 +191,6 @@
         "is_available": false,
         "availability_array": "",
         "product_url": "https://anhoch.com/product/599870731/cpu-amd-ryzen-7-5800x-8-core-39ghz-am4-36mb-box-wo-cooler",
-        "store_name": "Anhoch",
-        "product_type": "CPU"
-    },
-    {
-        "name": "CPU AMD Ryzen 7 PRO 5750G 8-Core 3.8GHz AM4 20MB w/Radeon Graphics TRAY w/Wraith Stealth Cooler",
-        "price_mkd": "16790",
-        "original_id": "599876329",
-        "image_url": "https://d1a68gwbwfmqto.cloudfront.net/img/products/full/amdprompk.jpg;",
-        "description": "General Specifications\nPlatform: Desktop\nProduct Family: AMD Ryzen™ PRO Processors\nProduct Line: AMD Ryzen™ 7 PRO 5000 Series Desktop Processors\nFormer Codename: \"Cezanne\"\n# of CPU Cores: 8\n# of Threads: 16\nMax. Boost Clock: Up to 4.6GHz\nBase Clock: 3.8GHz\nL2 Cache: 4MB\nL3 Cache: 16MB\nDefault TDP: 65W\nThermal Solution: Wraith Stealth\nProcessor Technology for CPU Cores: TSMC 7nm FinFET\nUnlocked for Overclocking: No\nCPU Socket: AM4\nMax. Operating Temperature (Tjmax): 95°C\n*OS Support:\nWindows 11 - 64-Bit Edition\nWindows 10 - 64-Bit Edition\nRHEL x86 64-Bit\nUbuntu x86 64-Bit\n*Operating System (OS) support will vary by manufacturer.\n\nConnectivity\nPCI Express® Version: PCIe® 3.0\nSystem Memory Type: DDR4\nMemory Channels: 2\nSystem Memory Specification: Up to 3200MHz\n\nGraphics Capabilities\nIntegrated Graphics: Yes\nGraphics Model: Radeon™ Graphics\nGraphics Core Count: 8\nGraphics Frequency: 2000 MHz\n\nKey Features\nSupported Technologies: AMD PRO technologies",
-        "brand": "AMD",
-        "is_available": false,
-        "availability_array": "",
-        "product_url": "https://anhoch.com/product/599876329/cpu-amd-ryzen-7-pro-5750g-8-core-38ghz-am4-20mb-wradeon-graphics-tray-wwraith-stealth-cooler",
         "store_name": "Anhoch",
         "product_type": "CPU"
     },
