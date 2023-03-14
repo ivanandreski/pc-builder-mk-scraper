@@ -18,13 +18,13 @@ from selenium.webdriver.chrome.options import Options
 from datetime import datetime
 
 def anhoch_scrape():
-    today = date.today()
+    today = datetime.today().strftime('%d-%m-%Y')
     log_filename = f"anhoch-{today}.log"
     logging.basicConfig(filename=log_filename,
                         encoding='utf-8', level=logging.INFO)
 
     for key, url in anhoch.items():
-        if os.path.isfile(f"./scraped_data/anhoch_{key}.json"):
+        if os.path.isfile(f"./scraped_data/anhoch_{today}/anhoch_{key}.json"):
             continue
 
         DRIVER_PATH = 'driver'
@@ -148,7 +148,6 @@ def anhoch_scrape():
 
             i += 1
 
-        today = datetime.today().strftime('%d-%m-%Y')
         with open(f"scraped_data/anhoch_{today}/anhoch_{key}.json", "w", encoding="utf-8") as f:
             json.dump(products, f, ensure_ascii=False, indent=4)
 

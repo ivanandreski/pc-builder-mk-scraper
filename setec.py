@@ -15,12 +15,13 @@ from product_types import get_type
 from datetime import datetime
 
 def setec_scrape():
+    today = datetime.today().strftime('%d-%m-%Y')
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582',
     }
     
     for key, url in setec.items():
-        if os.path.isfile(f"./scraped_data/setec_{key}.json"):
+        if os.path.isfile(f"./scraped_data/setec_{today}/setec_{key}.json"):
             continue
 
         products = []
@@ -70,6 +71,5 @@ def setec_scrape():
             print("Sleeping 2.4 seconds after changing category page")
             time.sleep(2.4)
 
-        today = datetime.today().strftime('%d-%m-%Y')
         with open(f"scraped_data/setec_{today}/setec_{key}.json", "w", encoding="utf-8") as f:
             json.dump(products, f, ensure_ascii=False, indent=4)
