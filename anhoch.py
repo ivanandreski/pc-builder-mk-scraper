@@ -14,7 +14,8 @@ from selenium.common.exceptions import *
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
+from selenium.webdriver.chrome.options import Options
+from datetime import datetime
 
 def anhoch_scrape():
     today = date.today()
@@ -22,16 +23,17 @@ def anhoch_scrape():
     logging.basicConfig(filename=log_filename,
                         encoding='utf-8', level=logging.INFO)
 
-    # TODO: probaj web driver logikata da ja stavis vo for key, url, da se resetira na sekoja kategorija
-
     for key, url in anhoch.items():
-        DRIVER_PATH = 'driver'
-        # driver = webdriver.Chrome(executable_path=DRIVER_PATH)
-        driver = webdriver.Edge(executable_path=DRIVER_PATH)
-        wait = WebDriverWait(driver, 15)
-
         if os.path.isfile(f"./scraped_data/anhoch_{key}.json"):
             continue
+
+        DRIVER_PATH = 'driver'
+        # driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+        # chromeoption = Options()
+        # chromeoption.add_argument('--headless')
+        # driver = webdriver.Edge(executable_path=DRIVER_PATH, options=chromeoption)
+        driver = webdriver.Edge(executable_path=DRIVER_PATH)
+        wait = WebDriverWait(driver, 15)
 
         products = []
         i = 1
@@ -146,7 +148,8 @@ def anhoch_scrape():
 
             i += 1
 
-        with open(f"scraped_data/anhoch_{key}.json", "w", encoding="utf-8") as f:
+        today = datetime.today().strftime('%d-%m-%Y')
+        with open(f"scraped_data/anhoch_{today}/anhoch_{key}.json", "w", encoding="utf-8") as f:
             json.dump(products, f, ensure_ascii=False, indent=4)
 
         driver.quit()

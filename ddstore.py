@@ -7,6 +7,7 @@ import json
 import os.path
 from routes import ddstore
 from product_types import get_type
+from datetime import datetime
 
 def ddstore_scrape():
     headers = {
@@ -78,5 +79,6 @@ def ddstore_scrape():
             print("Sleeping 2.5 seconds after changing category page")
             # time.sleep(2.5)
 
-        with open(f"scraped_data/ddstore_{key}.json", "w", encoding="utf-8") as f:
+        today = datetime.today().strftime('%d-%m-%Y')
+        with open(f"scraped_data/ddstore_{today}/ddstore_{key}.json", "w", encoding="utf-8") as f:
             json.dump(products, f, ensure_ascii=False, indent=4)

@@ -12,6 +12,7 @@ import json
 import time
 from routes import setec
 from product_types import get_type
+from datetime import datetime
 
 def setec_scrape():
     headers = {
@@ -69,5 +70,6 @@ def setec_scrape():
             print("Sleeping 2.4 seconds after changing category page")
             time.sleep(2.4)
 
-        with open(f"scraped_data/setec_{key}.json", "w", encoding="utf-8") as f:
+        today = datetime.today().strftime('%d-%m-%Y')
+        with open(f"scraped_data/setec_{today}/setec_{key}.json", "w", encoding="utf-8") as f:
             json.dump(products, f, ensure_ascii=False, indent=4)
